@@ -1,0 +1,23 @@
+
+@back Classroom
+@char Haruka.Default pose:BottomLeft
+Haruka: Hi I am Haruka!
+@char Haruka.Default pose:BottomCenter
+Haruka: I just wanted to walk over here.
+@char Haruka.Default pose:BottomRight
+Haruka: Now that I am over here we have room for my friend.
+@char Kasumi.Default pose:BottomLeft
+Kasumi: Oh god! God is about to speak!
+@char Kasumi.Default_EyesClosed_SadSmile2
+@char Haruka.Default_EyesClosed_Smile
+God: Deven is your god.
+@shake Haruka
+@shake Kasumi
+Haruka_And_Kasumi: Praise Deven!
+@choice "Praise Deven"
+    God: Praise Me!
+@choice "Show Deven your love"
+    God: How will you show me your love?
+@stop
+God: Deven is pleased!
+@stop
